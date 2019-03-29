@@ -1,0 +1,9 @@
+C:\Users\80694\Desktop\Mycode\BLL\bin\Debug\netstandard2.0\BLL.deps.json
+C:\Users\80694\Desktop\Mycode\BLL\bin\Debug\netstandard2.0\BLL.dll
+C:\Users\80694\Desktop\Mycode\BLL\bin\Debug\netstandard2.0\BLL.pdb
+C:\Users\80694\Desktop\Mycode\BLL\obj\Debug\netstandard2.0\BLL.csprojAssemblyReference.cache
+C:\Users\80694\Desktop\Mycode\BLL\obj\Debug\netstandard2.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\80694\Desktop\Mycode\BLL\obj\Debug\netstandard2.0\BLL.AssemblyInfoInputs.cache
+C:\Users\80694\Desktop\Mycode\BLL\obj\Debug\netstandard2.0\BLL.AssemblyInfo.cs
+C:\Users\80694\Desktop\Mycode\BLL\obj\Debug\netstandard2.0\BLL.dll
+C:\Users\80694\Desktop\Mycode\BLL\obj\Debug\netstandard2.0\BLL.pdb

@@ -1,0 +1,9 @@
+C:\Users\80694\Desktop\Mycode\DAL\bin\Debug\netstandard2.0\DAL.deps.json
+C:\Users\80694\Desktop\Mycode\DAL\bin\Debug\netstandard2.0\DAL.dll
+C:\Users\80694\Desktop\Mycode\DAL\bin\Debug\netstandard2.0\DAL.pdb
+C:\Users\80694\Desktop\Mycode\DAL\obj\Debug\netstandard2.0\DAL.csprojAssemblyReference.cache
+C:\Users\80694\Desktop\Mycode\DAL\obj\Debug\netstandard2.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\80694\Desktop\Mycode\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfoInputs.cache
+C:\Users\80694\Desktop\Mycode\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfo.cs
+C:\Users\80694\Desktop\Mycode\DAL\obj\Debug\netstandard2.0\DAL.dll
+C:\Users\80694\Desktop\Mycode\DAL\obj\Debug\netstandard2.0\DAL.pdb
