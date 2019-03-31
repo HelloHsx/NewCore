@@ -21,7 +21,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "C:/Users/80694/Desktop/Mycode/The/bin/Debug/netcoreapp2.2/The.dll",
+            "program": "${workspaceFolder}/bin/Debug/netcoreapp2.2/The.dll",
             "args": [],
             "cwd": "${workspaceFolder}/The",
             "stopAtEntry": false,

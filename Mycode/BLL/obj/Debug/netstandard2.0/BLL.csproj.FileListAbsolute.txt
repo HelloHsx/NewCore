@@ -7,3 +7,17 @@ C:\Users\80694\Desktop\Mycode\BLL\obj\Debug\netstandard2.0\BLL.AssemblyInfoInput
 C:\Users\80694\Desktop\Mycode\BLL\obj\Debug\netstandard2.0\BLL.AssemblyInfo.cs
 C:\Users\80694\Desktop\Mycode\BLL\obj\Debug\netstandard2.0\BLL.dll
 C:\Users\80694\Desktop\Mycode\BLL\obj\Debug\netstandard2.0\BLL.pdb
+D:\Mycode\BLL\bin\Debug\netstandard2.0\BLL.deps.json
+D:\Mycode\BLL\bin\Debug\netstandard2.0\BLL.dll
+D:\Mycode\BLL\bin\Debug\netstandard2.0\BLL.pdb
+D:\Mycode\BLL\bin\Debug\netstandard2.0\DAL.dll
+D:\Mycode\BLL\bin\Debug\netstandard2.0\Model.dll
+D:\Mycode\BLL\bin\Debug\netstandard2.0\DAL.pdb
+D:\Mycode\BLL\bin\Debug\netstandard2.0\Model.pdb
+D:\Mycode\BLL\obj\Debug\netstandard2.0\BLL.csprojAssemblyReference.cache
+D:\Mycode\BLL\obj\Debug\netstandard2.0\BLL.csproj.CoreCompileInputs.cache
+D:\Mycode\BLL\obj\Debug\netstandard2.0\BLL.AssemblyInfoInputs.cache
+D:\Mycode\BLL\obj\Debug\netstandard2.0\BLL.AssemblyInfo.cs
+D:\Mycode\BLL\obj\Debug\netstandard2.0\BLL.csproj.CopyComplete
+D:\Mycode\BLL\obj\Debug\netstandard2.0\BLL.dll
+D:\Mycode\BLL\obj\Debug\netstandard2.0\BLL.pdb

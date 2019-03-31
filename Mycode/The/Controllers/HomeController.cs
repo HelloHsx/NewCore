@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using The.Models;
+using BLL;
 
 namespace The.Controllers
 {
@@ -13,8 +14,9 @@ namespace The.Controllers
         public IActionResult Index()
         {
            
-            
-            return View();
+            var list=Class1.hello();
+           ViewData["abc"]=Class1.hello();
+            return View(list);
         }
 
         public IActionResult Privacy()
