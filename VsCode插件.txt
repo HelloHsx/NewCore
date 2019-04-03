@@ -1,0 +1,41 @@
+HTML Snippets
+View In Browser
+jQuery Snippets
+jQuery Code Snippets
+Debugger for Chrome
+Advanced New File
+Chinese (Simplified) Language Pack for Visual Studio Code
+HTML CSS Support
+vscode-icon
+Path Intellisense
+Npm Intellisense
+HTMLHint
+Atuo Rename Tag
+
+
+
+Vs跨域
+在webconfig中加入以下配置就OK了
+<configuration>
+
+<system.webServer>
+
+<httpProtocol>
+
+<customHeaders>
+
+<add name="Access-Control-Allow-Methods" value="OPTIONS,POST,GET"/>
+
+<add name="Access-Control-Allow-Headers" value="x-requested-with,content-type"/>
+
+<add name="Access-Control-Allow-Origin" value="*" />
+
+</customHeaders>
+
+</httpProtocol>
+
+</system.webServer>
+
+</configuration>
+
+原网站:https://blog.csdn.net/yoxe_ys/article/details/81240103
