@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <p class="a">1263</p>
+   
+
+    <script src="../js/jquery-1.8.2.min.js"></script>
+    <script>
+    $(function(){
+       $(".a").click(function(){
+           alert(123)
+            $.ajax({
+                url:"http://172.20.0.28:22727/Home/Ajax",
+                type:"post",
+                dataType:"json",
+                success:function(data){
+
+                    alert(JSON.stringify(data))
+                },
+                error:function(yc){
+                    alert(yc.responseText)
+                }
+            })
+
+       })
+    })
+    </script>
+</body>
+</html>
