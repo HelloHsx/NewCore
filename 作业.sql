@@ -1,5 +1,6 @@
 练习一
 
+httpswww.cnblogs.comH2921306656p5741106.html
 use Mobile20009
 create table student
 (
@@ -125,20 +126,27 @@ select depart from  teacher group by(depart)
 --3、 查询Student表的所有记录。
 select * from student
 --4、 查询Score表中成绩在60到80之间的所有记录。
-select * from score where degree between 60 and 80
+select * from score where degree between 60 and 80 
 --5、 查询Score表中成绩为85，86或88的记录。
+
+
 --6、 查询Student表中“95031”班或性别为“女”的同学记录。
 --7、 以Class降序查询Student表的所有记录。
 --8、 以Cno升序、Degree降序查询Score表的所有记录。
+select * from score order by cno  asc,degree desc
+
 --9、 查询“95031”班的学生人数。
 --10、查询Score表中的最高分的学生学号和课程号。
 --11、查询‘3-105’号课程的平均分。
+select avg(degree) from score where cno='3-105'
 --12、查询Score表中至少有5名学生选修的并以3开头的课程的平均分数。
+select avg(degree) from score where cno like '3%' having count(*)>5
 --13、查询最低分大于70，最高分小于90的Sno列。
 --14、查询所有学生的Sname、Cno和Degree列。
 --15、查询所有学生的Sno、Cname和Degree列。
 --16、查询所有学生的Sname、Cname和Degree列。
 --17、查询“95033”班所选课程的平均分。(avg)
+select avg(degree) from score where cno in(select cno from student where class='95033')
 --18、假设使用如下命令建立了一个grade表：
 --create table grade(low int,upp int,rank varchar(1))
 --insert into grade values(90,100,'A')
@@ -148,6 +156,10 @@ select * from score where degree between 60 and 80
 --insert into grade values(0,59,'E')
 --现查询所有同学的Sno、Cno和rank列。
 --19、查询选修“3-105”课程的成绩高于“109”号同学成绩的所有同学的记录。//无关子查询
+select * from score where cno='3-105' and degree>(select degree from score  where sno='109' and cno='3-105')
+
+select s1.*,c.* from student as s1,student as s2,score as c where s1.sno=s2.sno and s1.sno = c.sno and c.cno='3-105';
+
 
 --20、查询score中选学多门课程的同学中分数为非最高分成绩的记录。
 --21、查询成绩高于学号为“109”、课程号为“3-105”的成绩的所有记录。
