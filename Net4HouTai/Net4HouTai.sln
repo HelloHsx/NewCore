@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net4HouTai", "Net4HouTai\Net4HouTai.csproj", "{255CE126-4735-435A-A402-26E78CD8ABA2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net4Model", "Net4Model\Net4Model.csproj", "{22364FE6-FA24-430A-9708-A2A2A2013513}"

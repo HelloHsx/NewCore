@@ -1,0 +1,4 @@
+E:\Hsx\Net4HouTai\Net4DAL\bin\Debug\Net4DAL.dll
+E:\Hsx\Net4HouTai\Net4DAL\bin\Debug\Net4DAL.pdb
+E:\Hsx\Net4HouTai\Net4DAL\obj\Debug\Net4DAL.dll
+E:\Hsx\Net4HouTai\Net4DAL\obj\Debug\Net4DAL.pdb

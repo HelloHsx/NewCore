@@ -1,0 +1,4 @@
+E:\Hsx\Net4HouTai\Net4BLL\bin\Debug\Net4BLL.dll
+E:\Hsx\Net4HouTai\Net4BLL\bin\Debug\Net4BLL.pdb
+E:\Hsx\Net4HouTai\Net4BLL\obj\Debug\Net4BLL.dll
+E:\Hsx\Net4HouTai\Net4BLL\obj\Debug\Net4BLL.pdb

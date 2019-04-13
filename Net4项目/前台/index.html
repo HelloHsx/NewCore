@@ -15,6 +15,7 @@
   color:orange;
   font-weight: 600;
 }
+
 </style>
 
 <body class="layui-layout-body ">
@@ -58,7 +59,7 @@
         <ul class="layui-nav layui-nav-tree" lay-filter="test" style="background-color: #eee">
           <li class="layui-nav-item layui-nav-itemed">
             <a class="a" href="javascript:;" style="color:black"><i  class="layui-icon layui-icon-set"></i>基本资料</a>
-            <dl class="layui-nav-child" style="background-color: rgba(0, 0, 0, 0)!important;">
+            <dl class="layui-nav-child" style="">
               <dd><a data-url="../前台/基本资料/人员主文件.html" target="Main" data-id="ryzwj" data-title="人员主文件" class="dj"  href="javascript:;" data-type="tabAdd">人员主文件</a></dd>
               <dd><a data-url="../前台/基本资料/仓库.html" target="Main" data-id="ck" data-title="仓库" class="dj"  href="javascript:;" data-type="tabAdd">仓库</a></dd>
               <dd><a data-url="../前台/基本资料/供应商.html" target="Main" data-id="gys" data-title="供应商" class="dj"  href="javascript:;" data-type="tabAdd">供应商</a></dd>
@@ -116,7 +117,7 @@
       <!-- 内容主体区域 -->
 <div  class="layui-tab" lay-allowClose="true" lay-filter="dj" style="margin-top:0px" >
           <ul class="layui-tab-title">
-              <li class="layui-this" lay-id="ryzwj">主页</li>
+              <li class="layui-this" lay-id="123">主页</li>
           </ul>
           <div class="layui-tab-content">
               <div class="layui-tab-item layui-show">
@@ -143,7 +144,13 @@
   <script>
     $(function () {
      $(".a").css("color","orange")
+    $(".dj").hover(function(){
+       $(this).parent().css("background","orange");
+    },function(){
+      $(this).parent().css("background","");
+    })
 
+    
       layui.use('element', function () {
         var element = layui.element;
         var active = {

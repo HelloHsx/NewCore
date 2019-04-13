@@ -11,6 +11,10 @@ Path Intellisense
 Npm Intellisense
 HTMLHint
 Atuo Rename Tag
+Code Runner
+CSS Peek
+Live Server
+
 
 
 
@@ -37,5 +41,9 @@ Vs¿çÓò
 </system.webServer>
 
 </configuration>
+
+
+
+
 
 Ô­ÍøÕ¾:https://blog.csdn.net/yoxe_ys/article/details/81240103

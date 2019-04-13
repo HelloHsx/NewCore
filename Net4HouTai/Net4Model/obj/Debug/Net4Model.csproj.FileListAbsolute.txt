@@ -1,0 +1,4 @@
+E:\Hsx\Net4HouTai\Net4Model\bin\Debug\Net4Model.dll
+E:\Hsx\Net4HouTai\Net4Model\bin\Debug\Net4Model.pdb
+E:\Hsx\Net4HouTai\Net4Model\obj\Debug\Net4Model.dll
+E:\Hsx\Net4HouTai\Net4Model\obj\Debug\Net4Model.pdb
